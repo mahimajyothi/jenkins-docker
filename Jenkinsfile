@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'docker build -t hasanrocking/jenkins-docker-hub .'
+        sh 'docker build -t dcoker-jenkins .'
       }
     }
     stage('Login') {
